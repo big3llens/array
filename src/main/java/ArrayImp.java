@@ -1,10 +1,12 @@
 import java.util.Arrays;
+import java.util.LinkedList;
 
 public class ArrayImp<E extends Comparable<? super E>> implements Array<E>{
     private static final int DEFAULT_CAPACITY = 8;
 
     protected E[] data;
     protected int size;
+    LinkedList
 
     @SuppressWarnings("unchecked")
     public ArrayImp(int initialCapacity) {
